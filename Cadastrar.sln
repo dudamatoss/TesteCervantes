@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastrar", "Cadastrar\Cadastrar.csproj", "{8AE9526A-18E2-40A8-8005-B79949E07AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AE9526A-18E2-40A8-8005-B79949E07AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE9526A-18E2-40A8-8005-B79949E07AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE9526A-18E2-40A8-8005-B79949E07AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE9526A-18E2-40A8-8005-B79949E07AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B1F8664-486C-4F8D-AB23-0CD9BF85A1C7}
+	EndGlobalSection
+EndGlobal
