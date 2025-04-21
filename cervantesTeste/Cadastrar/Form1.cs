@@ -44,7 +44,7 @@ namespace Cadastrar
                     Registrar("INSERT");
                     DateTime.Now.ToString();
                     ListarDados();
-
+                    limparCaixa();
                 }
             }
             catch (Exception ex)
@@ -175,6 +175,13 @@ namespace Cadastrar
                     .Show("Operação cancelada.");
                 return;
             }
+        }
+
+        //limpar caixa de texto
+        private void  limparCaixa()
+        {
+            textBoxNumeros.Clear ();
+            textBoxTexto.Clear ();
         }
 
         //impedir que digite algo diferente do numero no input textBoxNumero
