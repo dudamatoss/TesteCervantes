@@ -10,7 +10,7 @@ namespace Cadastrar
     public partial class Form1 : Form
     {
 
-        private string connectionString = "Host=127.0.0.1;Username=postgres;Password=duda123;Database=cadastro_db";
+        private string connectionString = "Host=localhost;Username=username;Password=password;Database=seu_banco";
         private int id;
         public Form1()
         {
