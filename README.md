@@ -11,6 +11,13 @@ Este projeto é uma aplicação desktop desenvolvida com C# (Windows Forms) cone
 psql -U seu_usuario -d seu_banco_de_dados -a -f cadastro_db.sql
 ```
 
+## Execução da aplicação
+
+- Configue a string de conexão connectionString .
+```bash
+  private string connectionString = "Host=localhost;Username=user;Password=password;Database=seu_db";
+```
+
 ## Como usar
 
 1. Clone este repositório.
