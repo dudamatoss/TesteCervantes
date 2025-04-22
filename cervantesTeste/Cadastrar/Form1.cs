@@ -176,7 +176,7 @@ namespace Cadastrar
                 return;
             }
         }
-
+        
         //limpar caixa de texto
         private void  limparCaixa()
         {
